@@ -8,6 +8,7 @@
     src: url(https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wlxdr.ttf) format('truetype');
 }
 
+
 @font-face {
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -57,6 +58,11 @@
     --marquee-elements-displayed: 5;
     --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
     --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+}
+
+.logo_gui_avatar {
+    width: 70px;
+    height: 70px;
 }
 
 .marquee {
@@ -366,13 +372,11 @@ header {
     z-index: 5;
 }
 
-header h1 {
-    text-align: center;
-}
-
-header h1 a {
-    color: #fff;
-    text-decoration: none;
+header .logo_img {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 40px;
 }
 
 header ul {
@@ -582,7 +586,7 @@ footer {
         align-items: center;
     }
 
-    header h1 {
+    header .logo_img {
         display: none;
     }
 
