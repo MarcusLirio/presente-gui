@@ -86,7 +86,7 @@ window.addEventListener('scroll', function() {
     }
   });
 
-const text = "Me chamo Marcus! Atualmente um desenvolvedor FullStack. Amo desenvolver sites, mas não me mantenho somente nisso, configurações de servidores, criações de apis e manutenções em projetos legados também fazem parte do meu dia a dia. Abaixo mostrarei mais das teconlogias que tenho experiências em projetos."; // O texto que será renderizado
+const text = "Olá! Sou Guilherme, um profissional apaixonado por marketing e produtos de informação. Minha jornada gira em torno de conectar ideias criativas com estratégias sólidas, impulsionando marcas e produtos ao sucesso. Com uma mente curiosa e olhar atento às tendências, estou comprometido em desenvolver abordagens inovadoras que geram impacto. Convido você a explorar meu portfólio, onde compartilho exemplos do meu trabalho e experiência. Vamos colaborar para transformar ideias em resultados memoráveis!"; // O texto que será renderizado
 const typingDelay = 100; // Atraso (em milissegundos) entre cada letra
 
 const typingElement = document.getElementById("typing-text");
